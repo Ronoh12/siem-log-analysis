@@ -1,1 +1,14 @@
-
+{
+  "alert_id": "SIEM-2026-001",
+  "timestamp": "2026-01-10T10:16:10Z",
+  "severity": "High",
+  "rule_name": "Multiple SSH Failed Logins Followed by Successful Login",
+  "source_ip": "192.168.1.100",
+  "destination_host": "linux-server-01",
+  "event_type": "Authentication Attack",
+  "description": "Multiple failed SSH login attempts were detected from the same IP address followed by a successful login.",
+  "failed_attempts": 5,
+  "successful_login": true,
+  "affected_user": "validuser",
+  "recommended_action": "Investigate user activity, block source IP, reset credentials, and enable brute-force protection."
+}
