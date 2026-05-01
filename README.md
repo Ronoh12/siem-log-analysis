@@ -69,6 +69,17 @@ alerts/
 analysis/
 screenshots/
 
+## 📌 Notes
+
+This project simulates a SIEM environment without a live SIEM tool such as Splunk or Wazuh. The alert data and logs are generated to demonstrate SOC Analyst Level 1 skills in:
+
+- Alert triage
+- Log correlation
+- Threat detection
+- Incident documentation
+
+This approach reflects real-world SOC workflows in a controlled lab environment.
+
 
 ---
 
